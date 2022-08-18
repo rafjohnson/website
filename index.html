@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--20220808 - RAJ: Index page for final. Simple splash page -->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css"/>
+        <script type="text/javascript" src="scripts.js"></script>
+        <title>Rebecca Johnson</title>
+        <style>
+           
+            .time{
+                font-weight: bold;
+            }
+            .code{
+                font-family: 'Courier New', Courier, monospace;
+            }
+        </style>
+    </head>
+    <body onload="allPageLoad();">
+        <a href="index.html">
+            <header id="top">
+                <h1 class="title">Rebecca Johnson's Website</h1>
+                
+            </header>
+        </a>
+        <div class="sidebar">
+            <a class="active" href="index.html">Home</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="projects.html">Projects</a>
+            <a href="resume.html">About Me</a>
+        </div>
+        <div class="content" >
+            <p><img src="images/me_full.JPG" width="300" height="auto"/></p>
+            <p class="blog">
+                <h2 class="blogTitle">Great Day of Fishing!</h2>
+                <p class="time">August 6, 2022</p>
+                <p>
+                    <img class="rtFloatImg" width="150"   src="images/bass-20220806.jpg" alt="bass"/>
+                    Had a wonderful time out on the water, I caught my first bass in the kayak! I got out around 7:30 and the water was smooth as glass. 
+                    I found myself alone most of the time, which is surprising these days.
+                    <br><br>
+                    The rockfall was empty and I deposited my couple of hooks, <i>as usual</i>,
+                    and didn't catch anything. Next I went down into the current area, and targed a few submerged logs, which is where I found the bass. 
+                    <br><br>
+                    It was <i>so</i> exciting, I was shaking. But I got it in, and if I'd had a scale or ruler, I'd share the numbers. But for now, it was 
+                    about as long as from the handle on my pole to the first eye. 
+                    <br><br>
+                    What a great day on the water!
+                </p>
+            </p>
+            <p class="blog">
+                <h2 class=""blogTitle">Struggling with Android Development</h2>
+                <p class="time">August 3, 2022</p>
+                <p>
+                    <img class="ltFloatImg" width="150" src="images/pexels-christina-morillo-1181244.jpg" alt="woman developing an app"/>
+                    <!--Image from https://www.pexels.com/photo/person-holding-smartphone-while-using-laptop-1181244/ which offers free license to use their images. -->
+                    I've been long attempting to create an Android app for myself, with a C# backend. I've gotten most of the backend written, 
+                    with a postGreSQL database. It works great on the <span class="code">command line</span>. But UI man, it's just hard. Getting 
+                    what I want to show up, even basic Hello World programs? A total struggle. But I'll keep at it, that's what I do. 
+                    <br><br>
+                    So far, I've written a calorie tracker, and an interface for my time keeping software. All useful things. Eventually I'd like to 
+                    integrate my IOT things, to track things like power usage, temperature, and stuff, and be able to provide alerts on it. All on my phone. 
+                    Which will be cool, and quite useful!
+                </p>
+            </p>
+
+        </div>
+        <footer>
+            <p class="footer">&copy;2022, Rebecca A Johnson | Last Updated: <span id="lastModified"></span> | <a href="#top">Back to top</a> </p>
+        </footer>
+ </body>
+
+</html>

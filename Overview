@@ -1,0 +1,15 @@
+requirements - 4 pages
+1 index/splash page
+3 others
+    -hobbies - knitting - links to ravelry
+            - fishing - picture grid?
+    -development - I'd like to get a list of my public github projects here, using ajax to
+            use githubs api. Won't be secure as I'll probably need to expose my github key but
+            should be fun. 
+    -resume - display my resume, with a link to download a pdf of it. 
+
+For my final project it's probably going to be something I can actually use. For the splash page, I'll have an image of myself, and perhaps a few "fake" blog postings. If I were to continue the web development, it'd probably become a proper blog. Images would likely alternate between right and left aligned, floated among the text. 
+The other three pages would be 1) A list of my hobbies, knitting/fiber arts and fishing/kayaking. For knitting I'll be doing the external link to a knitting website, ravelry.com, and some shops that I enjoy. Fishing will be similar to the midterm with a gallery (with javascript to enlarge the photos rather than CSS this time).
+The next one would be a list of my public projects on Github. I'm familiar with the Github api, and would like to try my hand with Ajax to display the projects in a table (styled of course) with links to view the projects, along with info about the projects. 
+Finally, I'd like a simple view of my resume, a place to use a bit of CSS styling with different divs and classes. I'll include a link to download a pdf of my resume here as well.
+Each page will have a side nav bar with links to the rest, and all pages will have a footer with a last updated, link to my email, and a "to top" link. 

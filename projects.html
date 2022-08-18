@@ -1,0 +1,39 @@
+<html>
+    <!--20220809 RAJ: Project page, got JS working. Editing Page to pretty it up-->
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css"/>
+        <title>Rebecca Johnson - Projects</title>
+        <script type="text/javascript" src="scripts.js"></script>
+        
+    </head>
+    <body onload="ProjectPageLoad();">
+        <a href="index.html">
+            <header id="top">
+                <h1 class="title">Rebecca Johnson's Website</h1>
+            </header>
+        </a>
+
+        <div class="sidebar">
+            <a  href="index.html">Home</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a class="active" href="projects.html">Projects</a>
+            <a href="resume.html">About Me</a>
+        </div>
+        <div class="content" id="top">
+            <p>Here are my public projects on GitHub. These showcase a variety of my skills and things that
+                I've worked on over the years. I particularly enjoy writing in C#, VBA, and doing data analysis via
+                XSLT and SQL.
+            </p>
+            <p>Take a peek at GitHub by following the links, and if you like what you see, please give me a &star;, or even fork it into
+                your own repository.
+            </p>
+        </div>
+        <!--github table-->
+        <div class="content" id="githubTable">
+        </div>
+    </body>
+    <footer>
+        <p class="footer" ">&copy;2022, Rebecca A Johnson | Last Updated: <span id="lastModified"></span>  | <a href="#top">Back to top</a> </p>
+    </footer>
+</html>
