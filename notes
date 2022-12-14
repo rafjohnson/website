@@ -1,0 +1,4 @@
+Notes on setting up website:
+Configuration where address is specified: /etc/httpd/conf/httpd.conf 
+    update servername and serveralias to website
+    update documentroot to the point for the index. 
